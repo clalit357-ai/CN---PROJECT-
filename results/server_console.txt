@@ -1,0 +1,44 @@
+[1793021419.444300] STARTED drop_every=4
+Server is ready. Press Ctrl+C to stop.
+[1793021420.302481] DATAGRAM_RECEIVED seq=1 attempt=1 payload=hello-1
+[1793021420.302552] RECEIVED seq=1 attempt=1 accepted payload=hello-1
+[1793021420.302689] ACK_SENT seq=1 attempt=1 ACK transmitted
+[1793021420.302863] DATAGRAM_RECEIVED seq=2 attempt=1 payload=hello-2
+[1793021420.302881] RECEIVED seq=2 attempt=1 accepted payload=hello-2
+[1793021420.302937] ACK_SENT seq=2 attempt=1 ACK transmitted
+[1793021420.303381] DATAGRAM_RECEIVED seq=3 attempt=1 payload=hello-3
+[1793021420.303575] RECEIVED seq=3 attempt=1 accepted payload=hello-3
+[1793021420.303684] ACK_SENT seq=3 attempt=1 ACK transmitted
+[1793021420.305390] DATAGRAM_RECEIVED seq=4 attempt=1 payload=hello-4
+[1793021420.305414] SIMULATED_DROP seq=4 attempt=1 first arrival intentionally discarded; no ACK sent
+[1793021420.405748] DATAGRAM_RECEIVED seq=4 attempt=2 payload=hello-4
+[1793021420.405823] RECEIVED seq=4 attempt=2 accepted payload=hello-4
+[1793021420.405880] ACK_SENT seq=4 attempt=2 ACK transmitted
+[1793021420.406281] DATAGRAM_RECEIVED seq=5 attempt=1 payload=hello-5
+[1793021420.406310] RECEIVED seq=5 attempt=1 accepted payload=hello-5
+[1793021420.406355] ACK_SENT seq=5 attempt=1 ACK transmitted
+[1793021420.406495] DATAGRAM_RECEIVED seq=6 attempt=1 payload=hello-6
+[1793021420.406515] RECEIVED seq=6 attempt=1 accepted payload=hello-6
+[1793021420.406552] ACK_SENT seq=6 attempt=1 ACK transmitted
+[1793021420.406732] DATAGRAM_RECEIVED seq=7 attempt=1 payload=hello-7
+[1793021420.406840] RECEIVED seq=7 attempt=1 accepted payload=hello-7
+[1793021420.406876] ACK_SENT seq=7 attempt=1 ACK transmitted
+[1793021420.407010] DATAGRAM_RECEIVED seq=8 attempt=1 payload=hello-8
+[1793021420.407022] SIMULATED_DROP seq=8 attempt=1 first arrival intentionally discarded; no ACK sent
+[1793021420.508667] DATAGRAM_RECEIVED seq=8 attempt=2 payload=hello-8
+[1793021420.508723] RECEIVED seq=8 attempt=2 accepted payload=hello-8
+[1793021420.508783] ACK_SENT seq=8 attempt=2 ACK transmitted
+[1793021420.509275] DATAGRAM_RECEIVED seq=9 attempt=1 payload=hello-9
+[1793021420.509306] RECEIVED seq=9 attempt=1 accepted payload=hello-9
+[1793021420.509377] ACK_SENT seq=9 attempt=1 ACK transmitted
+[1793021420.510520] DATAGRAM_RECEIVED seq=10 attempt=1 payload=hello-10
+[1793021420.510568] RECEIVED seq=10 attempt=1 accepted payload=hello-10
+[1793021420.510611] ACK_SENT seq=10 attempt=1 ACK transmitted
+[1793021420.510752] DATAGRAM_RECEIVED seq=11 attempt=1 payload=hello-11
+[1793021420.510771] RECEIVED seq=11 attempt=1 accepted payload=hello-11
+[1793021420.510941] ACK_SENT seq=11 attempt=1 ACK transmitted
+[1793021420.511959] DATAGRAM_RECEIVED seq=12 attempt=1 payload=hello-12
+[1793021420.511990] SIMULATED_DROP seq=12 attempt=1 first arrival intentionally discarded; no ACK sent
+[1793021420.613858] DATAGRAM_RECEIVED seq=12 attempt=2 payload=hello-12
+[1793021420.613917] RECEIVED seq=12 attempt=2 accepted payload=hello-12
+[1793021420.613977] ACK_SENT seq=12 attempt=2 ACK transmitted

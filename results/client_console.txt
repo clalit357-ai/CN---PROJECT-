@@ -1,0 +1,34 @@
+[1793021420.301704] STARTED local=0.0.0.0:60582 count=12 session_id=86cb19bbc605
+[1793021420.301736] SENT seq=1 attempt=1 payload_bytes=7
+[1793021420.302741] ACK_RECEIVED seq=1 attempt=1 matching ACK received
+[1793021420.302763] SENT seq=2 attempt=1 payload_bytes=7
+[1793021420.302960] ACK_RECEIVED seq=2 attempt=1 matching ACK received
+[1793021420.302979] SENT seq=3 attempt=1 payload_bytes=7
+[1793021420.303957] ACK_RECEIVED seq=3 attempt=1 matching ACK received
+[1793021420.304953] SENT seq=4 attempt=1 payload_bytes=7
+[1793021420.405391] TIMEOUT seq=4 attempt=1 no ACK within 0.100s
+[1793021420.405471] RETRANSMIT seq=4 attempt=2 payload_bytes=7
+[1793021420.406048] ACK_RECEIVED seq=4 attempt=2 matching ACK received
+[1793021420.406090] SENT seq=5 attempt=1 payload_bytes=7
+[1793021420.406382] ACK_RECEIVED seq=5 attempt=1 matching ACK received
+[1793021420.406404] SENT seq=6 attempt=1 payload_bytes=7
+[1793021420.406574] ACK_RECEIVED seq=6 attempt=1 matching ACK received
+[1793021420.406654] SENT seq=7 attempt=1 payload_bytes=7
+[1793021420.406922] ACK_RECEIVED seq=7 attempt=1 matching ACK received
+[1793021420.406947] SENT seq=8 attempt=1 payload_bytes=7
+[1793021420.507971] TIMEOUT seq=8 attempt=1 no ACK within 0.100s
+[1793021420.508239] RETRANSMIT seq=8 attempt=2 payload_bytes=7
+[1793021420.508980] ACK_RECEIVED seq=8 attempt=2 matching ACK received
+[1793021420.509032] SENT seq=9 attempt=1 payload_bytes=7
+[1793021420.509758] ACK_RECEIVED seq=9 attempt=1 matching ACK received
+[1793021420.509785] SENT seq=10 attempt=1 payload_bytes=8
+[1793021420.510649] ACK_RECEIVED seq=10 attempt=1 matching ACK received
+[1793021420.510674] SENT seq=11 attempt=1 payload_bytes=8
+[1793021420.510947] ACK_RECEIVED seq=11 attempt=1 matching ACK received
+[1793021420.510987] SENT seq=12 attempt=1 payload_bytes=8
+[1793021420.613059] TIMEOUT seq=12 attempt=1 no ACK within 0.100s
+[1793021420.613148] RETRANSMIT seq=12 attempt=2 payload_bytes=8
+[1793021420.614041] ACK_RECEIVED seq=12 attempt=2 matching ACK received
+[1793021420.614452] SUMMARY total=12 acknowledged=12 failed=0
+
+Summary: acknowledged=12/12, failed=0; log=/mnt/data/person2_udp_module/results/client_events.csv

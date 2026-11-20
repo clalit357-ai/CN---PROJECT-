@@ -1,0 +1,24 @@
+time,event,detail,path
+1792925936.827361,start,ADAPTIVE (rerouting on),primary
+1792925939.100583,switch_connected,s1,primary
+1792925939.184809,switch_connected,s2,primary
+1792925939.262552,switch_connected,s3,primary
+1792925939.320750,switch_connected,s4,primary
+1792925947.620506,port_down,s1-port3,primary
+1792925947.621445,reroute,link_down -> backup in 0.83 ms,backup
+1792925947.626732,port_down,s2-port1,backup
+1792925952.632994,port_up,s1-port3,backup
+1792925952.633136,port_up,s2-port1,backup
+1792925952.634610,reroute,link_restored -> primary in 1.42 ms,primary
+1792925958.641543,port_down,s1-port1,primary
+1792925958.679749,port_down,s4-port3,primary
+1792925958.701017,port_down,s1-port2,primary
+1792925958.727655,port_down,s1-port3,primary
+1792925958.729637,reroute,link_down -> backup in 1.86 ms,backup
+1792925958.729790,port_down,s2-port1,backup
+1792925958.752091,port_down,s1-port4,backup
+1792925958.752221,port_down,s3-port1,backup
+1792925958.771648,port_down,s2-port2,backup
+1792925958.771771,port_down,s4-port1,backup
+1792925958.803736,port_down,s4-port2,backup
+1792925958.803876,port_down,s3-port2,backup
